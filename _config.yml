@@ -13,26 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Engineer's Nightmare Dev Blog
+title: Engineer's Nightmare Development Blog
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-    Engineer's Nightmare is a game involving keeping a space
-    station alive in an uncaring and hostile universe.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Maintain a space station in an uncaring and ambivalent universe.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://engineers-nightmare.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: engineers-nightmare
+github_username:  engineers-nightmare
 
 # Build settings
-remote_theme: mattvh/solar-theme-jekyll
 markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - newpost.sh
+  - .gitignore
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
