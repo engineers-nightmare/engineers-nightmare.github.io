@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome"
+date:   2018-04-13 20:36:15 -0600
+categories: misc
+---
+
+This is the dev blog of the Engineer's Nightmare project. The intent is for it to be updated
+as we find interesting things to write about during the development process.
+
+For now, please enjoy these videos:
+<iframe width="854" height="480" src="https://www.youtube.com/embed/MCGQCXz3Tz4?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9ob-O7-CS2Y?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
